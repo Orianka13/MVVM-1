@@ -12,18 +12,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondName: UILabel!
     @IBOutlet weak var age: UILabel!
     
-    //создадим некого пользователя, информацию о котором помести в наши ярлыки
-    var profile: Profile? {
+    var viewModel: ViewModel!  {
         didSet {
-            guard let profile = profile else { return }
-            self.name.text = profile.name
-            self.secondName.text = profile.secondName
-            self.age.text = String(profile.age)
+            self.name.text = viewModel.name
+            self.secondName.text = viewModel.secondName
+            self.age.text = viewModel.age
         }
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        profile = Profile(name: "John", secondName: "Smith", age: 33)
+        viewModel = ViewModel()
     }
 }
 

@@ -14,6 +14,7 @@
 		59D684422680D2EE004EFB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D684412680D2EE004EFB9C /* Assets.xcassets */; };
 		59D684452680D2EE004EFB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D684432680D2EE004EFB9C /* LaunchScreen.storyboard */; };
 		59D6844D2680D323004EFB9C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6844C2680D323004EFB9C /* Profile.swift */; };
+		59D6844F2680DC32004EFB9C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6844E2680DC32004EFB9C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		59D684442680D2EE004EFB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59D684462680D2EE004EFB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D6844C2680D323004EFB9C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		59D6844E2680DC32004EFB9C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				59D684382680D2E6004EFB9C /* AppDelegate.swift */,
 				59D6843A2680D2E6004EFB9C /* SceneDelegate.swift */,
 				59D6843C2680D2E6004EFB9C /* ViewController.swift */,
+				59D6844E2680DC32004EFB9C /* ViewModel.swift */,
 				59D6843E2680D2E6004EFB9C /* Main.storyboard */,
 				59D684412680D2EE004EFB9C /* Assets.xcassets */,
 				59D684432680D2EE004EFB9C /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D6844F2680DC32004EFB9C /* ViewModel.swift in Sources */,
 				59D6843D2680D2E6004EFB9C /* ViewController.swift in Sources */,
 				59D6844D2680D323004EFB9C /* Profile.swift in Sources */,
 				59D684392680D2E6004EFB9C /* AppDelegate.swift in Sources */,
